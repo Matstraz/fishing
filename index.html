@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Matteo Strazzera">
+    <meta name="description" content="A site about fishing">
+    <title>The fishing blog</title>
+    <style>
+        header, main, footer {
+            background-color: rgba(179, 225, 255, 0.5);
+        }
+        nav {
+            background-color: rgba(179, 225, 255, 0.8);
+            width: 100%;
+            margin: auto;
+        }
+        ul{
+            padding: 0;
+        }
+        li {
+            display: inline-block;
+            list-style-type: none;
+            border-right: white solid 2px;
+            width: 33%;
+            text-align: center;
+        }
+        li a{
+            text-decoration: none;
+            font-size: 18px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body style="background-image: url(https://img.freepik.com/free-vector/hand-drawn-fish-seamless-background-pattern_167715-779.jpg?w=740);">
+    <header>
+        <h1 style="text-align: center; padding-top: 20px;">The fishing blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="photos.html" target="_blank">Photos</a></li>
+                <li style="border-right: none;"><a href="forum.html" target="_blank">Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2 style="text-align: center;">Welcome to my blog</h2>
+
+            <p>This is a blog about fishing and fishing competitions, mainly focused on <em>shore</em> and <em>rock-fishing</em>.
+               Here you can find every advice you need to improve your fishing knowledge, skill and performance; discover different types of <strong>baits</strong> and
+                learn how better <strong>throw</strong> your line.</p>
+
+            <p>Keep reading and your tecnique will be the best.</p>
+
+            <img src="https://img.freepik.com/free-photo/closeup-shot-carp-fish-underwater_181624-8178.jpg?w=996" alt="A giant carp" title="Carp" width="350" height="240">
+            <img src="https://img.freepik.com/free-photo/man-fishing-river_23-2148204090.jpg?w=996" alt="A famous fishing pole in action" title="Fishing pole" width="350" height="240">
+        </article>
+    </main><hr>
+
+    <footer>
+        <h3>Contacts</h3>
+        <address>
+            Matteo Strazzera<br>
+            Via Roma, 1<br>
+            00153 Roma (RM) Italy<br>
+            Tel: +390000000000<br>
+            <a href="mailto:mat.strazzera@gmail.com&subject=info%20request">E-mail</a><br>
+        </address><hr>
+        <form action="inscription.html" method="post" style="text-align: center;">
+            <label for="e-mail">Insert your e-mail to join us</label>
+            <input type="email" name="e-mail" id="e-mail" required style="background-color: white;">
+            <input type="submit" value="Send">
+        </form><hr>
+    </footer>
+</body>
+
+</html>
