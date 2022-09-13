@@ -1,6 +1,6 @@
 {
   "homepage": "http://matstraz.github.io/fishing",
-  "name": "mtg",
+  "name": "fishing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
