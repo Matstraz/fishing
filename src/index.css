@@ -1,0 +1,20 @@
+* {
+  color: black;
+}
+
+.home {
+  background: linear-gradient(to top left, lightgreen, green, lightgrey, grey);
+}
+
+.navigation {
+  background: linear-gradient(to top left, lightgrey, green, lightgrey);
+}
+
+.placeholderColor::-moz-placeholder,
+.placeholderColor::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.smallest {
+  font-size: x-small;
+}
